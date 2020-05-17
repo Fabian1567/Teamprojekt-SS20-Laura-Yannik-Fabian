@@ -9,7 +9,7 @@ Fehlermeldung Fabian: <br>
 Fehlermeldung Laura: <br>
 ![Fehlermeldung2](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/FehlerGUIMapWidget.png) <br>
 
-Bei Yannik, der Elementary verwendet hat das Ausführen der Dateien funktioniert.<br>
+Bei Yannik, der Elementary verwendet, hat das Ausführen der Dateien funktioniert.<br>
 Yannik: <br>
 ![Erfolg1](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/pyopenmsSuccess.png) 
 <br>
