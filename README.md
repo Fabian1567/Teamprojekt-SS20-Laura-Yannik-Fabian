@@ -10,5 +10,6 @@ Fehlermeldung Laura: <br>
 Fehlermeldung Yannik: <br>
 ![Fehlermeldung3](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/PyopenmsFehler.png) 
 <br>
+
 Nur das Ausführen der Dateien annotateSpectrum.py, convertToMGF.py, filter.py und PhosphoScoring.py hat funktioniert.<br>
 Der flake8 Test konnte nach kurzer Recherche hinzugefügt werden und läuft so wie er sollte.
