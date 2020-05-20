@@ -17,7 +17,7 @@ Yannik: <br>
 Der flake8 Test konnte nach kurzer Recherche hinzugefügt werden und läuft so wie er sollte.
 
 
-# Woche e:
+# Woche 3:
 Der fix/style branch wurde problemlos erstellt und mithilfe von black, autopep8, Jetbrains PyCharm und Handarbeit fast vollständig flake8 kompatibel gemacht.
 Folgende Probleme traten dabei auf:
 *  autopep8 setzte, gemäß E402, modul level imports an den Anfang der File. Die in manchen files verwendete line "sys.path.include()" verlangt aber diesen import unter sich, weshalb E402 nicht erfüllt werden kann und deaktiviert werden sollte. (Begründung unbekannt, herausgefunden per trial&error)
