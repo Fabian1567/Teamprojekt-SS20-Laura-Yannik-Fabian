@@ -18,6 +18,11 @@ Der flake8 Test konnte nach kurzer Recherche hinzugefügt werden und läuft so w
 
 
 # Woche 3:
+Dem Tutorial ein package zu erstellen wurde gefolgt und es hat auch alles ohne Probleme funktioniert.
+Die changes wurden erstmal nur auf den Fabian branch gepusht da wir uns unsicher waren ob die changes auf den master sollen wegen dem pull request den wir im 3. Punkt auf das upstream repository stellen sollen.
+Das package kann unter https://test.pypi.org/project/pyopenms-extra-Fabian1567/0.0.1/ gefunden werden.
+
+
 Der fix/style branch wurde problemlos erstellt und mithilfe von black, autopep8, Jetbrains PyCharm und Handarbeit fast vollständig flake8 kompatibel gemacht.
 Folgende Probleme traten dabei auf:
 *  autopep8 setzte, gemäß E402, modul level imports an den Anfang der File. Die in manchen Files verwendete Line "sys.path.include()" verlangt aber diesen Import unter sich, weshalb E402 nicht erfüllt werden kann und deaktiviert werden sollte. (Begründung unbekannt, herausgefunden per trial&error)
