@@ -19,7 +19,6 @@ Der flake8 Test konnte nach kurzer Recherche hinzugefügt werden und läuft so w
 
 # Woche 3:
 Dem Tutorial ein package zu erstellen wurde gefolgt und es hat auch alles ohne Probleme funktioniert.
-Die changes wurden erstmal nur auf den Fabian branch gepusht da wir uns unsicher waren ob die changes auf den master sollen wegen dem pull request den wir im 3. Punkt auf das upstream repository stellen sollen.
 Das package kann unter https://pypi.org/project/pyopenms-extra-Fabian-Yannik-Laura/0.0.1/ gefunden werden.
 ![Install Package](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Package.PNG)
 
