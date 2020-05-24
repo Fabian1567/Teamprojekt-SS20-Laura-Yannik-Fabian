@@ -33,6 +33,7 @@ Folgende Probleme traten dabei auf:
 Insgesamt hätte es Zeit gespart sich vorher zu überlegen, ob anders mit Kommentaren umgegangen werden kann und wie das Zusammenspiel von W503 und W504 gelöst werden soll, da sonst fast alles von den erwähnten Tools abgedeckt wurde. 
 
 IDViewer.py: <br>
+
 Fabian: <br>
 Unter Windows hat das Ausführen der IDViewer.py nicht funktioniert, da es nicht das erste Problem war was nur unter Windows auftritt, wurde eine Virtual Machine mit Ubuntu aufgesetzt.
 Unter Ubuntu ließ sich, nach beheben eines kleinen Problems, die IDViewer.py ausführen, jedoch werden nicht alle Komponenten richtig angezeigt.
