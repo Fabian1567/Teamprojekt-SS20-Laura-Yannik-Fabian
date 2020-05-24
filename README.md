@@ -41,7 +41,8 @@ Unter Ubuntu ließ sich, nach beheben eines kleinen Problems, die IDViewer.py au
 ![IDViewer.py Fabian](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Idviewer.PNG)
 Folgender Output wird im Terminal geprintet:
 ![Output IDViewer.py](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Output%20IDViewer.PNG)
-
+Das Einfügen einer zweiten identischen Tabelle hat über einen zweiten Aufruf des ScanTableWidget in der ControllerWidget.py funktioniert, jedoch ert nachdem nach etlichen fehlversuchen bemerkt wurde, dass auch ein neuer Eintrag in der widget_height liste hinzugefügt werden muss.
+![SecondScanTableWidget](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Second%20ScanTableWidget.PNG)
 
 
 
