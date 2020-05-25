@@ -34,7 +34,7 @@ Insgesamt hätte es Zeit gespart sich vorher zu überlegen, ob anders mit Kommen
 
 IDViewer.py: <br>
 Die Fehlermeldung beim Ausführen von IDViewer.py auf Windows:<br>
-![Fehlermeldung IDViewer.py](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Windows-Fehler-IDViewer.png)
+![Fehlermeldung IDViewer.py](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Windows-Fehler-IDViewer.png) <br>
 Fabian: <br>
 Unter Windows hat das Ausführen der IDViewer.py nicht funktioniert, da es nicht das erste Problem war was nur unter Windows auftritt, wurde eine Virtual Machine mit Ubuntu aufgesetzt.
 Unter Ubuntu ließ sich, nach beheben eines kleinen Problems, die IDViewer.py ausführen, jedoch werden die TIC Werte nicht angezeigt und im Terminal sthet No TIC values in spectrum.
