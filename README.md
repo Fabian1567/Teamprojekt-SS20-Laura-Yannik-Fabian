@@ -62,13 +62,15 @@ Der Output der Datei sah danach so aus:<br>
 <br>
  Dann folgte das Verlinken beider Tabellen.<br>
  Hier haben wir dafür zwei Funktionen zum Filtern der Tabellen erstellt, um dafür zu sorgen, dass beim Anklicken eines Proteins nur die PSMs, auf die das Protein verweist, angezeigt werden und anders herum, dass beim Anklicken eines PSMs die dazugehörigen Proteine angezeigt werden.<br>
+Es wird dafür jeweils der Inhalt in der Spalte accession miteinander verglichen.<br>
 ![VerlinkenYannik](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/VerlinkenTabellen.png)<br>
  <br>
 Output nach Verlinken der Tabellen: <br>
-Beim Auswählen eines Proteins:<br>
+Beim Auswählen eines Proteins:
+ <br>
 ![VerlProt](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/VerlinktePRT.png)<br>
  <br>
-Beim Auswählen eines PSMs:<br>
+Beim Auswählen eines PSMs:
  <br>
 ![VerlPSM](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/VerlinktePSM.png)<br>
  
