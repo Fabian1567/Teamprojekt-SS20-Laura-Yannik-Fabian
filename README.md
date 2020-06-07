@@ -45,8 +45,20 @@ Das Einfügen einer zweiten identischen Tabelle hat über einen zweiten Aufruf d
 Die Änderungen hierfür wurden zunächst auf dem Fabian Branch gespeichert
 ![SecondScanTableWidget](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Second%20ScanTableWidget.PNG)
 
-
-
+# Woche 4:
+Es wurde ein Widget erstellt, dass eine mzTab-Datei  einliest und zur Visualisierung der Datei zwei Tabellen erstellt, die die Proteine und PSMs aus der Datei auflistet.<br>
+Der Parser wurde hierbei wie folgt programmiert und filtert zum Einen die Header beider Tabellen, zum Anderen die Proteine mit 'PRT' und die PSMs mit 'PSM' am Anfang heraus, wobei bei den Proteinen zwischen 'single_protein' und 'indistinguishable_protein_group' in der letzten Spalte unterschieden wird. <br>
+![ParserFabi](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/ParserFabian.png)<br>
+<br>
+Die Tabellen wurden mit QTableWidget erstellt und wurden wegen der Spaltenlänge untereinander angeordnet.<br>
+Hierbei wurden zwei Funktionen (createProtTable und createPSMTable) erstellt, die jeweils die Tabellen zeichnen und nacheinander die Zeilen der mzTab-Datei einlesen, die durch den Parser übermittelt wurden.<br>
+(TableWidget1 -> Proteine, TableWidget2 -> PSMs)<br>
+<b>
+![TablesLaura](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/TablesMzTab.png)<br>
+ <br>
+Der Output der Datei sieht so aus:<br>
+ <br>
+![OutputTables](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/OutputMzTab.png)<br>
 
 
 
