@@ -46,7 +46,7 @@ Die Änderungen hierfür wurden zunächst auf dem Fabian Branch gespeichert
 ![SecondScanTableWidget](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Second%20ScanTableWidget.PNG)
 
 # Woche 4:
-Es wurde ein Widget erstellt, dass eine mzTab-Datei  einliest und zur Visualisierung der Datei zwei Tabellen erstellt, die die Proteine und PSMs aus der Datei auflistet.<br>
+Es wurde ein Widget erstellt, dass eine mzTab-Datei  einliest und zur Visualisierung der Datei zwei Tabellen erstellt, die die Proteine und PSMs aus der Datei auflisten.<br>
 Der Parser wurde hierbei wie folgt programmiert und filtert zum Einen die Header beider Tabellen, zum Anderen die Proteine mit 'PRT' und die PSMs mit 'PSM' am Anfang heraus, wobei bei den Proteinen zwischen 'single_protein' und 'indistinguishable_protein_group' in der letzten Spalte unterschieden wird. <br>
 ![ParserFabi](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/ParserFabian.png)<br>
 <br>
@@ -64,9 +64,14 @@ Der Output der Datei sah danach so aus:<br>
  Hier haben wir dafür zwei Funktionen zum Filtern der Tabellen erstellt, um dafür zu sorgen, dass beim Anklicken eines Proteins nur die PSMs, auf die das Protein verweist, angezeigt werden und anders herum, dass beim Anklicken eines PSMs die dazugehörigen Proteine angezeigt werden.<br>
 ![VerlinkenYannik](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/VerlinkenTabellen.png)<br>
  <br>
-Der Output dazu: <br>
+Output nach Verlinken der Tabellen: <br>
+Beim Auswählen eines Proteins:<br>
+![VerlProt](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/VerlinktePRT.png)<br>
+ <br>
+Beim Auswählen eines PSMs:<br>
+ <br>
+![VerlPSM](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/VerlinktePSM.png)<br>
  
-
 
 
 
