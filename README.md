@@ -56,10 +56,16 @@ Hierbei wurden zwei Funktionen (createProtTable und createPSMTable) erstellt, di
 <b>
 ![TablesLaura](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/TablesMzTab.png)<br>
  <br>
-Der Output der Datei sieht so aus:<br>
+Der Output der Datei sah danach so aus:<br>
  <br>
 ![OutputTables](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/OutputMzTab.png)<br>
-
+<br>
+ Dann folgte das Verlinken beider Tabellen.<br>
+ Hier haben wir dafür zwei Funktionen zum Filtern der Tabellen erstellt, um dafür zu sorgen, dass beim Anklicken eines Proteins nur die PSMs, auf die das Protein verweist, angezeigt werden und anders herum, dass beim Anklicken eines PSMs die dazugehörigen Proteine angezeigt werden.<br>
+![VerlinkenYannik](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/VerlinkenTabellen.png)<br>
+ <br>
+Der Output dazu: <br>
+ 
 
 
 
