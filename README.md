@@ -45,7 +45,7 @@ Das Einfügen einer zweiten identischen Tabelle hat über einen zweiten Aufruf d
 Die Änderungen hierfür wurden zunächst auf dem Fabian Branch gespeichert
 ![SecondScanTableWidget](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Second%20ScanTableWidget.PNG)
 
-# Woche 4:
+# Woche 4 & 5:
 Es wurde ein Widget erstellt, dass eine mzTab-Datei  einliest und zur Visualisierung der Datei zwei Tabellen erstellt, die die Proteine und PSMs aus der Datei auflisten.<br>
 Der Parser wurde hierbei wie folgt programmiert und filtert zum Einen die Header beider Tabellen, zum Anderen die Proteine mit 'PRT' und die PSMs mit 'PSM' am Anfang heraus, wobei bei den Proteinen zwischen 'single_protein' und 'indistinguishable_protein_group' in der letzten Spalte unterschieden wird. <br>
 ![ParserFabi](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/ParserFabian.png)<br>
@@ -74,7 +74,13 @@ Beim Auswählen eines PSMs:
  <br>
 ![VerlPSM](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/VerlinktePSM.png)<br>
  
-
+ # Woche 6:
+ 
+ Unter Type Hinting versteht man die direkte anmerkung der Typen der ein und ausgabe Parameter einer Funktion in deren Definition.
+ Bsp.: <br>
+ def add(a: int, b: int) -> int:
+  return a + b;
+Es ist sinnvoll dies anzuwenden, da man so bei einer unbekannten Funktion nsofort weiss welche Parameter diese annimt und was sie ausgibt ohne in den Kommentaren / im docstring nachlesen zu müssen, da es für diese verschiedene Normen gibt und es dadurch nicht immer sofort ersichtlich ist.
 
 
 
