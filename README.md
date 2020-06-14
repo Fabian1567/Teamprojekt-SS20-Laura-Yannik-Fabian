@@ -75,7 +75,18 @@ Beim Auswählen eines PSMs:
 ![VerlPSM](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/VerlinktePSM.png)<br>
  
 # Woche 6:
-
+Der Code wurde insofern geändert, dass die Tabelle mit der drawTables()-Funktion einmal gezeichnet wird und bei jedem Update/Filtern durch createProtTables() und createPSMTables() jeweils die Zeilenanzahl geändert und die Tabelle gefüllt wird.
+<br>
+![LauraTables](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/LauracreateTables.png)
+<br>
+Außerdem wurden die Header jetzt richtig gesetzt und befinden sich nicht mehr in der ersten Zeile der Tabellen.
+Die erste Spalte, die nur 'PRT' oder 'PSM' enthalten hat, wurde ebenfalls gelöscht.
+Der Output unseres Widgets sieht jetzt so aus:
+<br>
+![OutputTables](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/OutputTablesLaura.png)
+<br>
+Wir haben den Code nach dem NumPy docstring Standard kommentiert.
+<br>
 Unter Type Hinting versteht man die direkte Anmerkung der Typen der Eingabe- und Ausgabe-Parameter einer Funktion in deren Definition. <br>
 Bsp.: <br>
  def add(a: int, b: int) -> int: <br>
