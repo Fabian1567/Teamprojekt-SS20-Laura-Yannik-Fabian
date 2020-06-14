@@ -75,11 +75,12 @@ Beim Auswählen eines PSMs:
 ![VerlPSM](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/VerlinktePSM.png)<br>
  
 # Woche 6:
-Unter Type Hinting versteht man die direkte Anmerkung der Typen der ein und ausgabe Parameter einer Funktion in deren Definition. <br>
+
+Unter Type Hinting versteht man die direkte Anmerkung der Typen der Eingabe- und Ausgabe-Parameter einer Funktion in deren Definition. <br>
 Bsp.: <br>
  def add(a: int, b: int) -> int: <br>
    return a + b; <br>
-Es ist sinnvoll dies anzuwenden, da man so bei einer unbekannten Funktion sofort weiss welche Parameter diese annimt und was sie ausgibt ohne in den Kommentaren / im docstring nachlesen zu müssen, da es für diese verschiedene Normen gibt und es dadurch nicht immer sofort ersichtlich ist.
+Es ist sinnvoll dies anzuwenden, da man so bei einer unbekannten Funktion sofort weiss, welche Parameter diese annimmt und was sie ausgibt, ohne in den Kommentaren / im docstring nachlesen zu müssen, da es für diese verschiedene Normen gibt und es dadurch nicht immer sofort ersichtlich ist.
 
 
 
