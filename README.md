@@ -78,7 +78,7 @@ Beim Auswählen eines PSMs:
  Unter Type Hinting versteht man die direkte anmerkung der Typen der ein und ausgabe Parameter einer Funktion in deren Definition.
  Bsp.: <br>
  def add(a: int, b: int) -> int: <br>
-  return a + b; <br>
+   return a + b; <br>
 Es ist sinnvoll dies anzuwenden, da man so bei einer unbekannten Funktion nsofort weiss welche Parameter diese annimt und was sie ausgibt ohne in den Kommentaren / im docstring nachlesen zu müssen, da es für diese verschiedene Normen gibt und es dadurch nicht immer sofort ersichtlich ist.
 
 
