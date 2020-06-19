@@ -93,7 +93,8 @@ Bsp.: <br>
    return a + b; <br>
 Es ist sinnvoll dies anzuwenden, da man so bei einer unbekannten Funktion sofort weiss, welche Parameter diese annimmt und was sie ausgibt, ohne in den Kommentaren / im docstring nachlesen zu müssen, da es für diese verschiedene Normen gibt und es dadurch nicht immer sofort ersichtlich ist.
 
-
+# Woche 7:
+Die Uniprot Suche wurde so implementiert, dass beim doppelklicken auf eine Zeile die jeweilige Uniprot Seite für das Protein dieser Zeile geöffnet wird. <br>
 
 
 
