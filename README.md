@@ -96,6 +96,6 @@ Es ist sinnvoll dies anzuwenden, da man so bei einer unbekannten Funktion sofort
 # Woche 7:
 Die Uniprot Suche wurde so implementiert, dass beim doppelklicken auf eine Zeile die jeweilige Uniprot Seite für das Protein dieser Zeile geöffnet wird. <br>
 ![UniprotSuche](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Uniprot%20Suche%202.PNG)
-![UniprotSuche](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Uniprot%20Suche%20.PNG)
+![UniprotSuche](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Uniprot%20Suche.PNG)
 
 
