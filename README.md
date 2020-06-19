@@ -96,7 +96,7 @@ Es ist sinnvoll dies anzuwenden, da man so bei einer unbekannten Funktion sofort
 # Woche 7:
 Die Uniprot Suche wurde so implementiert, dass beim doppelklicken auf eine Zeile die jeweilige Uniprot Seite für das Protein dieser Zeile geöffnet wird. <br>
 ![UniprotSuche](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Uniprot%20Suche%202.PNG)
-![UniprotSuche](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Uniprot%20Suche.PNG)
+![UniprotSuche](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Uniprot%20Suche.PNG) <br>
 Laufzeit: <br>
 Es wurde getestet wie die Laufzeit bei kleineren Dateien aussieht und auch bei Dateien mit über 1000 Zeilen lief alles sofort und ohne jegliche Laufzeit Probleme. 
 Die mzTab file die wir aber bekommen haben hat über 300 Tausend relevante Zeilen für das Programm was zu der hohen Laufzeit führt. Eine Lösung für das Problem ist uns nicht ersichtlich, da unser Filter lediglich eine Schleife benötigt und wir nicht wissen, wie man diesen noch verschnellern sollte. Um das Einlesen zu verschnellern wäre die einzige mir ersichtliche Lösung eine Datenstruktur zu verwenden, welche es uns ermöglicht ganze Zeilen auf einmal in die Tabellen einzufügen und nicht über jede einzelne Kachel iterieren zu müssen, hierfür fehlte uns jedoch die Zeit und das nötige Wissen.
