@@ -99,7 +99,11 @@ Die Uniprot Suche wurde so implementiert, dass beim doppelklicken auf eine Zeile
 ![UniprotSuche](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/Uniprot%20Suche.PNG) <br>
 Laufzeit: <br>
 Es wurde getestet wie die Laufzeit bei kleineren Dateien aussieht und auch bei Dateien mit über 1000 Zeilen lief alles sofort und ohne jegliche Laufzeit Probleme. 
-Die mzTab file die wir aber bekommen haben hat über 300 Tausend relevante Zeilen für das Programm was zu der hohen Laufzeit führt. Eine Lösung für das Problem ist uns nicht ersichtlich, da unser Filter lediglich eine Schleife benötigt und wir nicht wissen, wie man diesen noch verschnellern sollte. Um das Einlesen zu verschnellern wäre die einzige mir ersichtliche Lösung eine Datenstruktur zu verwenden, welche es uns ermöglicht ganze Zeilen auf einmal in die Tabellen einzufügen und nicht über jede einzelne Kachel iterieren zu müssen, hierfür fehlte uns jedoch die Zeit und das nötige Wissen.
+Die mzTab file die wir aber bekommen haben hat über 300 Tausend relevante Zeilen für das Programm was zu der hohen Laufzeit führt. Eine Lösung für das Problem ist uns nicht ersichtlich, da unser Filter lediglich eine Schleife benötigt und wir nicht wissen, wie man diesen noch verschnellern sollte. Um das Einlesen zu verschnellern wäre die einzige mir ersichtliche Lösung eine Datenstruktur zu verwenden, welche es uns ermöglicht ganze Zeilen auf einmal in die Tabellen einzufügen und nicht über jede einzelne Kachel iterieren zu müssen, hierfür fehlte uns jedoch die Zeit und das nötige Wissen. <br>
+
+![UniprotSuche](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/hidePRTColumns.PNG)
+![UniprotSuche](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/hidePSMColumns.PNG) <br>
+Konstante columns werden nun standardmäßig ausgeblendet. Dies wird einfach dadruch erreicht, dass gecheckt wird ob jedes Element in einer column gleich ist und falls dies der Fall ist, wird die column ausgeblendet. Für das Implementieren eines buttons zum einblenden dieser columns fehlte jedoch die Zeit.<br>
 
 
 
