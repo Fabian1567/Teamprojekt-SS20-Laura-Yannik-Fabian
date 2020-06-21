@@ -105,8 +105,10 @@ Die mzTab file die wir aber bekommen haben hat über 300 Tausend relevante Zeile
 ![UniprotSuche](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/hidePSMColumns.PNG) <br>
 Konstante columns werden nun standardmäßig ausgeblendet. Dies wird einfach dadruch erreicht, dass gecheckt wird ob jedes Element in einer column gleich ist und falls dies der Fall ist, wird die column ausgeblendet. Für das Implementieren eines buttons zum einblenden dieser columns fehlte jedoch die Zeit.<br>
 
-
-
+<br> Unser bisheriges Laufzeitproblem lässt sich auf das Befüllen der vollständigen PSM-Tabelle zurückführen, was sowohl beim Start der Anwendung, als auch beim Aufheben eines Filters passiert. Gefilterte Teilmengen stellen dagegen kein wirkliches Problem dar. Der vorgeschlagene Ansatz Dictionaries zum Vorsortieren zu verwenden optimiert daher leider nur einen Teil des Programms, der bereits mit akzeptabler Geschwindigkeit läuft. <br>
+<br> Ein weiterer Ansatz war es, die Tabelle nicht neu aufzufüllen, wenn man das Filtern rückgängig machen möchte, sondern stattdessen Zeilen je nach Kontext zu verstecken bzw. wieder sichtbar zu machen. Dadurch wurde jedoch für jeden Befehl durch die gesamte Tabelle iteriert, wodurch dann auch das filtern langsam wurde. <br>
+<br> Dieser Ansatz führte jedoch zu der jetzt umgesetzten Lösung, ganze Tabellen zu verstecken. Die Anwendung besteht nun aus vier tableWidgets, zwei davon werden genau einmal zu Beginn mit den vollständigen Daten befüllt, die anderen Beiden starten leer und versteckt. Wenn eine gefilterte Tabelle angezeigt werden soll, wird die zugehörige vollständige Tabelle versteckt, die zu Beginn Leere mit den relevanten Daten aufgefüllt und sichtbar gemacht. Der bisher kritische Vorgang, den Filter wieder rückgängig zu machen, wird nun dadurch erreicht, dass die zu Beginn volle Tabelle einfach wieder sichtbar und die gefilterte Tabelle unsichtbar gemacht wird. <br>
+<br> Erreicht wird dies über eine Klickfunktion, eine für jede Tabellenart, die den momentanen Zustand des Programms ermittelt und danach entscheidet, was angezeigt bzw, versteckt wird. <br>
 
 
 
