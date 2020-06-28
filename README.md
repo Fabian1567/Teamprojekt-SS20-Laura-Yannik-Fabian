@@ -116,7 +116,12 @@ Allerdings haben wir hier eine Fehlermeldung erhalten "TypeError: 'float' object
 Unter stacktrace versteht man eine Liste von Frames, die in Python zum "Nachgehen" der Funktionsaufrufe dient. Ein Frame wird hierbei bei jedem Funktionsaufruf erstellt und gelöscht, wenn dieser returned wird.<br>
 Der Stack ändert sich also während des Programmausführens, je nach Funktionsaufrufen und - returns.<br>
 
+# Woche 8: <br>
+Wir haben die Application GUI_Tabs erstellt, in der 5 Tabs angezeigt werden.<br>
+In den dritten Tab haben wir unser mzTabTableWidget geladen, in den vierten Tab haben wir den FastaViewer von Team 1 laden können.<br>
 
+Wir waren uns nicht sicher, wo die Dateien Ini-Config und Experimental Design gespeichert sind. Daher sind Tab1 und Tab2 noch leer. <br>
+In den 5.Tab haben wir das SpectrumWidget geladen (wir waren uns nicht sicher, ob mit 'Spectrum Viewer' der SpecViewer oder das SpectrumWidget gemeint ist.).<br>
 
 
 
