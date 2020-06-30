@@ -125,7 +125,13 @@ In den 5.Tab haben wir das SpectrumWidget geladen (wir waren uns nicht sicher, o
 Der Output unserer Application:<br>
 ![OutputTabs](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/OutputTabs.png)
 
-
+# Woche 9:
+Es wurde ein Button zum manuellen einladen eines files erstellt. <br>
+![loadButton](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/loadButton.PNG)<br>
+Hierzu wird über einen boolean gecheckt ob bereits ein file gealden ist, falls das der Fall ist müssen die Tabellen und Listen die dahinter stecken erst gecleared werden.<br>
+![fileAlreadyLoaded](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/fileAlreadyLoaded.PNG)<br>
+Danach (oder falls noch kein file geladen ist), werden die Tabllen befüllt und eingeblendet (einfache Auslagerung der Funktionen aus der init in die neue loadFile Funktion).<br>
+![loadFile](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/loadFile.PNG)<br>
 
 
 
