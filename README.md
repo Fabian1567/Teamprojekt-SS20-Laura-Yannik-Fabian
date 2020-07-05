@@ -133,11 +133,13 @@ Hierzu wird über einen boolean gecheckt ob bereits ein file gealden ist, falls 
 Danach (oder falls noch kein file geladen ist), werden die Tabllen befüllt und eingeblendet (einfache Auslagerung der Funktionen aus der init in die neue loadFile Funktion).<br>
 ![loadFile](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/loadFile.PNG)<br>
 
+Es wurden außerdem die Spaltenbreiten der PRT-/PSM-Tabellen in der mzTabTableWidget automatisch angepasst mit resizeToContents(), sodass nun der vollständige Spalteninhalt angezeigt wird.<br>
+![mzTabColumnsLaura](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/mzTabColumnsLaura.png)<br>
+
 Das Hinzufügen des SpecViewers in Tab5 hat nun auch funktioniert. Der ursprüngliche Fehler lag in dem Aufruf der Main Klasse des SpecViewers, die denselben Namen wie eine andere Klasse hatte (App).<br>
 ![SpecViewerLaura](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/SpecViewerTabsLaura.png)<br>
 <br>
-Es wurden außerdem die Spaltenbreiten der PRT-/PSM-Tabellen in der mzTabTableWidget automatisch angepasst mit resizeToContents(), sodass nun der vollständige Spalteninhalt angezeigt wird.<br>
-![mzTabColumnsLaura](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/mzTabColumnsLaura.png)
+
 
 
 
