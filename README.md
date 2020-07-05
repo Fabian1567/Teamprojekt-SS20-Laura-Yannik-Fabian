@@ -138,7 +138,6 @@ Es wurden außerdem die Spaltenbreiten der PRT-/PSM-Tabellen in der mzTabTableWi
 
 Das Hinzufügen des SpecViewers in Tab5 hat nun auch funktioniert. Der ursprüngliche Fehler lag in dem Aufruf der Main Klasse des SpecViewers, die denselben Namen wie eine andere Klasse hatte (App).<br>
 ![SpecViewerLaura](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/SpecViewerTabsLaura.png)<br>
-<br>
 
 
 
