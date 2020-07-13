@@ -142,8 +142,9 @@ Das Hinzufügen des SpecViewers in Tab5 hat nun auch funktioniert. Der ursprüng
 # Woche 10:
 OpenMS wurde installiert.<br>
 Der XML-Viewer und das Experimental Design von Team 2 wurden der GUI_Tabs hinzugefügt, sodass nun jeder Tab ein Widget enthält.<br>
-![GUITabsW10](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/LauraW10.png)<br>
-Es wurde außerdem ein Config-Button erstellt, der über den Tabs zu sehen ist.<br>
+![GUITabsW10](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/W10Yannik.png)<br>
+Es wurde ein Run-Button erstellt, der über den Tabs zu sehen ist.<br>
+
 
 
 
