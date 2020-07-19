@@ -145,6 +145,12 @@ Der XML-Viewer und das Experimental Design von Team 2 wurden der GUI_Tabs hinzug
 ![GUITabsW10](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/W10Yannik.png)<br>
 Es wurde ein Run-Button erstellt, der über den Tabs zu sehen ist.<br>
 
+# Woche 11
+Es wurde ein Button hinzugefügt um aus einem Ordner die Dateien automatisch einzuladen. Dazu werden alle Dateien auf ihre Endungen überprüft und bei passender Endung in das entsprechende Widget geladen. <br>
+Beim laden eine tsv Datei in die mzML view gibt es eine Fehlermeldung und das File wird nicht richtig angezeigt, jedoch hat das keine Auswirkungen auf das spätere geschehen. <br>
+Falls keine tsv Datei in dem Ordner vorhanden ist, werden automatisch die entsprechenden mzMl Dateien eingeladen was ohne Probleme funktioniert. <br>
+Über einen run Button kann jetzt auch der LFQ command ausgeführt erden, der an den entsprechenden Stellen die Filenmaes einträgt, das Funktioniert bis jetzt aber nur wenn die Files über das automatische laden eingefügt wurden und es fehlt noch die Option eine ini Datei auszuwählen oder die entsprechenden Stellen im command über eine Abfrage manuell ändern zu können. <br>
+
 
 
 
