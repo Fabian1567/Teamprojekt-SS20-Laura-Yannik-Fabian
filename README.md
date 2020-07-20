@@ -153,6 +153,8 @@ Falls keine tsv Datei in dem Ordner vorhanden ist, werden automatisch die entspr
 Bei Laura und Yannik kommt es bis jetzt noch noch zu einer Fehlermeldung, die mit der proteomicsLFQ zusammenhängt (ProteomicsLFQ: not found).<br>
 Bei Fabian kommt es zu folgendem Fehler: <br>
 ![LFQFehlerFabian](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/LFQ%20Fehlermeldung%20Fabian.PNG)<br>
+Dieser Fehler tritt auf, wenn nur die Daten aus dem BSA experiment genutzt werden. <br>
+Die anderen Daten zu nutzen funktioniert auch nicht, da die angegebene BSA_design.tsv nicht gefunden wurde (der Link verweist zu einer experimental_design.tsv welche nicht zu den mzML und idXML Dateien passt die wir verwenden sollen. Die BSA_design wurde auch in keinem anderen FOlder des Repositories gefunden. <br>
 
 
 
