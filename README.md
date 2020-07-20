@@ -150,7 +150,9 @@ Es wurde ein Button hinzugefügt, um aus einem Ordner die Dateien automatisch in
 Beim Laden einer tsv Datei in die mzML view gibt es eine Fehlermeldung und das File wird nicht richtig angezeigt, jedoch hat das keine Auswirkungen auf das spätere geschehen. <br>
 Falls keine tsv Datei in dem Ordner vorhanden ist, werden automatisch die entsprechenden mzMl Dateien eingeladen, was ohne Probleme funktioniert. <br>
 Über einen run Button kann jetzt auch der LFQ command ausgeführt erden, der an den entsprechenden Stellen die Filenames einträgt, das funktioniert bis jetzt aber nur, wenn die Files über das automatische Laden eingefügt wurden und es fehlt noch die Option, eine ini Datei auszuwählen oder die entsprechenden Stellen im command über eine Abfrage manuell ändern zu können. <br>
-Bis jetzt kommt es noch zu einer Fehlermeldung, die mit der proteomicsLFQ zusammenhängt (ProteomicsLFQ: not found).<br>
+Bei Laura und Yannik kommt es bis jetzt noch noch zu einer Fehlermeldung, die mit der proteomicsLFQ zusammenhängt (ProteomicsLFQ: not found).<br>
+Bei Fabian kommt es zu folgendem Fehler: <br>
+![LFQFehlerFabian](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/LFQ%20Fehlermeldung%20Fabian.PNG)<br>
 
 
 
