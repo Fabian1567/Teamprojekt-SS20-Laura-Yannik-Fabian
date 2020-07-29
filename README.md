@@ -156,7 +156,7 @@ Bei Fabian kommt es zu folgendem Fehler: <br>
 Dieser Fehler tritt auf, wenn nur die Daten aus dem BSA experiment genutzt werden. <br>
 Die anderen Daten zu nutzen funktioniert auch nicht, da die angegebene BSA_design.tsv nicht gefunden wurde (der Link verweist zu einer experimental_design.tsv welche nicht zu den mzML und idXML Dateien passt die wir verwenden sollen). Die BSA_design wurde auch in keinem anderen Folder des Repositories gefunden. <br>
 
-# Woche 12
+# Woche 12 & 13
 OpenMS läuft jetzt bei uns allen.<br>
 Es wurde ein HomeTabWidget erstellt, in dem die Parameter Threads und proteinFDR für den proteomicsLFQ-command vom User geändert werden können.<br>
 Wenn die Felder leer bleiben, bleiben die Parameter bei ihren Default Werten.<br>
@@ -164,7 +164,7 @@ Es wird jetzt auch automatisch eine ini generiert und es erscheint, falls der 'R
 Das manuelle Hereinladen der Dateien funktioniert. Die Daten werden auch dem command übergeben.<br>
 Das automatische Hereinladen passt, bis auf die tsv-Dateien. Diese werden zwar richtig ausgewählt und dem command übergeben, allerdings im Widget selber falsch angezeigt.<br>
 Der command an sich läuft aber durch und es wird eine mzTab erstellt und im Widget angezeigt.<br>
-
+UPDATE: Die tsv-Dateien werden jetzt auch richtig im Widget angezeigt. <br>
 
 
 
