@@ -160,11 +160,13 @@ Die anderen Daten zu nutzen funktioniert auch nicht, da die angegebene BSA_desig
 OpenMS läuft jetzt bei uns allen.<br>
 Es wurde ein HomeTabWidget erstellt, in dem die Parameter Threads und proteinFDR für den proteomicsLFQ-command vom User geändert werden können.<br>
 Wenn die Felder leer bleiben, bleiben die Parameter bei ihren Default Werten.<br>
+![finalversionGUITabs](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/finalversion.png)<br>
 Es wird jetzt auch automatisch eine ini generiert und es erscheint, falls der 'Run ProteomicsLFQ'Button gedrückt wird und ein Dateityp fehlt, ein Popup, das den User auffordert eine Datei des jeweiligen Typs auszuwählen.<br>
-Das manuelle Hereinladen der Dateien funktioniert. Die Daten werden auch dem command übergeben.<br>
-Das automatische Hereinladen passt, bis auf die tsv-Dateien. Diese werden zwar richtig ausgewählt und dem command übergeben, allerdings im Widget selber falsch angezeigt.<br>
-Der command an sich läuft aber durch und es wird eine mzTab erstellt und im Widget angezeigt.<br>
-UPDATE: Die tsv-Dateien werden jetzt auch richtig im Widget angezeigt. <br>
+Sowohl das manuelle als auch das automatische Hereinladen der Dateien funktioniert. Die Daten werden auch dem command übergeben.<br>
+Der command durch und es wird eine mzTab erstellt und im Widget angezeigt.<br>
+![mzTabFinalVersion](https://raw.githubusercontent.com/Fabian1567/Teamprojekt-SS20-Laura-Yannik-Fabian/master/mzTabfinalVersion.png) <br>
+Die GUI_Tabs lässt sich jetzt auch unter Windows ausführen. <br>
+Wir arbeiten an der Abschlusspräsentation. <br>
 
 
 
